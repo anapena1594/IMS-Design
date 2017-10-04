@@ -1,27 +1,26 @@
-<!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="../test/mdl/material.min.css">
+<link rel="stylesheet" href="../test/mdl/material.min.css"/>
 <script src="../test/mdl/material.min.js"></script>
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-indigo.min.css" />
-<head>
-<link rel="stylesheet" type="text/css" href="test.css">
-</head>
-<body>
+
+<style>
+   @import url("test.css");
+
+</style>
  
-<!-- Always shows a header, even in smaller screens. -->
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
-      <!-- Title -->
+      
       <span class="mdl-layout-title">Panafold</span>
-      <!-- Add spacer, to align navigation to the right -->
+      
       <div class="mdl-layout-spacer"></div>
-      <!-- Navigation. We hide it in small screens. -->
+      
       <nav class="mdl-navigation mdl-layout--large-screen-only">
         <a class="mdl-navigation__link" href="https://panafold.co/">About Panafold</a>
       </nav>
-    </div>
+</div>
   </header>
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">Panafold</span>
@@ -29,52 +28,55 @@
       <a class="mdl-navigation__link" href="https://panafold.co/">About Panafold</a>
     </nav>
   </div>
+  
   <main>
-  <!--Grid of Pictures -->
-  <div class="mdl-grid">
+  
+<div class="mdl-grid">
   <div class="mdl-cell mdl-cell--4-col">
-  <img class="images" src="Images/ff.jpeg" style="width:80%">
+  <img class="images" src="Images/ff.jpeg" style="width:80%"/>
   </div>
   <div class="mdl-cell mdl-cell--4-col">
-  <img class="images" src="Images/aa.jpg" style="width:80%">
+  <img class="images" src="Images/arc1.jpg" style="width:80%"/>
   </div>
   <div class="mdl-cell mdl-cell--4-col">
-  <img class="images" src="Images/skywalker.jpg" style="width:80%">
+  <img class="images" src="Images/skywalker.jpg" style="width:80%"/>
   </div>
   <div class="mdl-cell mdl-cell--4-col">
-  <img class="images" src="Images/bb.png" style="width:80%">
-  </div>
-   <div class="mdl-cell mdl-cell--4-col">
-  <img class="images" src="Images/dd.jpeg" style="width:80%">
+  <img class="images" src="Images/house 1.jpg" style="width:80%"/>
   </div>
   <div class="mdl-cell mdl-cell--4-col">
-  <img class="images" src="Images/ee.jpeg" style="width:80%">
+  <img class="images" src="Images/dd.jpeg" style="width:80%"/>
   </div>
   <div class="mdl-cell mdl-cell--4-col">
-  <img class="images" src="Images/ee.jpg" style="width:80%">
+  <img class="images" src="Images/ee.jpeg" style="width:80%"/>
   </div>
   <div class="mdl-cell mdl-cell--4-col">
-  <img class="images" src="Images/ff.jpeg" style="width:80%">
+  <img class="images" src="Images/ee.jpg" style="width:80%"/>
   </div>
   <div class="mdl-cell mdl-cell--4-col">
-  <img class="images" src="Images/hh.jpeg" style="width:80%">
+  <img class="images" src="Images/ff.jpeg" style="width:80%"/>
   </div>
   <div class="mdl-cell mdl-cell--4-col">
-  <img class="images" src="Images/jj.jpeg" style="width:80%">
+  <img class="images" src="Images/hh.jpeg" style="width:80%"/>
   </div>
   <div class="mdl-cell mdl-cell--4-col">
-  <img class="images" src="Images/mm.jpeg" style="width:80%">
+  <img class="images" src="Images/jj.jpeg" style="width:80%"/>
   </div>
   <div class="mdl-cell mdl-cell--4-col">
-  <img class="images" src="Images/chova.png" style="width:80%">
+  <img class="images" src="Images/mm.jpeg" style="width:80%"/>
+  </div>
+  <div class="mdl-cell mdl-cell--4-col">
+  <img class="images" src="Images/chova.png" style="width:80%"/>
+  </div>
+  <div class="mdl-cell mdl-cell--4-col">
+  <img class="images" src="Images/house2.jpg" style="width:80%"/>
+  </div>
+  <div class="mdl-cell mdl-cell--4-col">
+  <img class="images" src="Images/house2.png" style="width:80%"/>
   </div>
 </div>
-  </main>
+</main>
 </div>
 </body>
 
 </html>
-
-
-
-
